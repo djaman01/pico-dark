@@ -4,3 +4,16 @@
   font-style: italic;
 }
 
+.nav-bar-pico {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.inline-btn {
+  margin-top: -10px;
+  
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
