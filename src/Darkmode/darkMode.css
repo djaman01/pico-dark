@@ -1,4 +1,3 @@
-
 /* Ne pas mettre de couleur sinon dans le dark mode ça ne deviendra pas blanc */
 .title-darkmode {
   font-style: italic;
@@ -11,9 +10,54 @@
 
 
 .inline-btn {
+  border: 2px solid red;
   margin-top: -10px;
-  
-  width: 350px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+.start-btn {
+  font-size: 30pt;
+  font-family: 'Press Start 2p';
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+  padding: 0px 10px 0px 10px;
+  background-color: #00FF00;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: white;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0 .2em green;
+  cursor: pointer;
+  height: 50px;
+
+}
+
+.start-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: .2em;
+}
+
+.grid {
+  border: 2px solid black
+}
+
+.grid-pico {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+@media(max-width: 1150px) {
+  .grid-pico {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
 }

@@ -55,14 +55,24 @@ export default function Darkmode() {
 
       <div className='inline-btn'>
         <h1 role='button'>
-          Small
+          Small 1
         </h1>
 
         <h1 role='button'>
-          Small
+          Small 2
         </h1>
 
+        <span role="button" className='start-btn'>START</span>
+
       </div>
+
+      <div class="grid-pico">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+      </div>
+
     </>
 
 
