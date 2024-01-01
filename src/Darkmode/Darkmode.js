@@ -17,9 +17,11 @@ export default function Darkmode() {
       <article data-theme={isDarkMode ? 'dark' : 'light'}>
 
         <div className="all-page">
+{/* Dans pico.css: quand un style ne veut pas changer, c'est qu'il faut le mettre en inline style comme ce heigyt et width ôur input */}
+        <input style={{width:"500px", height:"40px"}} type='search' className='input-home' />
 
           <h1 className="title-darkmode">This is the Darkmode</h1>
-
+          {/* Une fois cliquer pico css va changer la classe de l'article à light et ca va changer le text du bouton à toggle light mode */}
           <button onClick={toggleDarkMode}>Toggle Dark Mode</button>
 
           <p className='all-text'>
